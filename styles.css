@@ -1,0 +1,30 @@
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+body {
+  background-color: #282d3e;
+  color: #a6adc3;
+  text-align: center;
+}
+h1 {
+  font-weight: normal;
+  font-size: 1.8em;
+}
+canvas {
+  display: block;
+}
+div {
+  margin: auto;
+  max-width: 400px;
+  max-height: 400px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Knight's Tour</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Select a square to start a tour</h1>
+  <div id="container"></div>
+  <script src="knights-tour.js"></script>
+  <script>
+    // run tour
+    const tour = new KnightsTour();
+    tour.render({
+      sqSize: 40,
+      container: document.getElementById('container'),
+    });
+  </script>
+</body>
+</html>
