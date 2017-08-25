@@ -1,20 +1,13 @@
 {
   "name": "canvas-knights-tour",
   "version": "1.0.0",
-  "description": "",
+  "description": "Canvas interactive animated knights tour.",
   "main": "knights-tour.js",
-  "private": true,
   "scripts": {
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^3.14.1",
-    "eslint-config-airbnb-base": "^11.0.1",
-    "eslint-plugin-import": "^2.2.0",
-    "jasmine": "^2.5.3"
-  },
+  "author": "Adam Deschamp",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.14.1",
     "morgan": "^1.8.1"
