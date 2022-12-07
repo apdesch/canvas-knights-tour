@@ -9,7 +9,7 @@
   "author": "Adam Deschamp",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.14.1",
+    "express": "^4.18.2",
     "morgan": "^1.8.1"
   }
 }
